@@ -66,7 +66,6 @@ li.draggable {
   text-align: center;
 }
 
-
 .cell.small-font .swappable > div,
 .cell.small-font .draggable-small > div {
   font-size: 0.8em;
@@ -142,16 +141,6 @@ pre-sort stack at bottom of step #1 (see above for gray container)
   overflow-y: scroll;
   padding: 0;
 }
-
-#step2 .sorted-statements .sortable {
-  height: 115px;
-  background-color: white;
-  border: 1px solid;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  padding: 0;
-}
-
 
 /* styles for disagree-neutral-agree pre-sort stack at bottom of sort page
    step #1 custom height
@@ -364,7 +353,7 @@ li.disagree {
   .grid td {
     vertical-align: top;
     padding: 0;
-    font-size: 19px;
+    font-size: 18px;
     line-height: 1.2em;
   }
 }
@@ -375,7 +364,7 @@ li.disagree {
     vertical-align: top;
     padding: 0;
     line-height: 1.2em;
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 
@@ -385,7 +374,7 @@ li.disagree {
     vertical-align: top;
     padding: 0;
     line-height: 1.2em;
-    font-size: 15px;
+    font-size: 14px;
     /* font-size: 1.2vh; */
   }
 }
@@ -545,7 +534,7 @@ body {
   margin-right: 5px;
   font-size: 70%;
   opacity: 0.5;
-  display: none;
+  
 }
 
 /* custom help button css - override bootstrap settings

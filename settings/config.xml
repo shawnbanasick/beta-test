@@ -14,7 +14,7 @@
      <!-- login required (true|false) -->
      <item id="loginrequired">true</item>
      <!-- login with common password (leave blank if not required) -->
-     <item id="loginPassword">1234</item>
+     <item id="loginPassword">access</item>
     <item id="partNameRequired">true</item>
       <!-- URL to individual login script(leave blank if not required) -->
      <item id="loginUrl"></item>
@@ -41,12 +41,12 @@
      <item id="form">
         <note bg="true">* are mandatory</note>
 
-        <label>Age</label>
-        <note>Please enter year of birth</note>
+        <label>Age *</label>
+        <note>Date of Birth?</note>
         <input type="text" required="true" maxlength="4" ></input>
 
-        <label>Tell me about you</label>
-        <input type="textarea" required="true"></input>
+        <label>Which is Best *</label>
+        <input type="checkbox" required="true">one; two; three</input>
 
      </item>
 
