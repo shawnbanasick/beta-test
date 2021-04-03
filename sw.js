@@ -1,5 +1,5 @@
 // Files to cache
-const cacheName = "eq-mobile-v6";
+const cacheName = "eq-mobile-v9999";
 const appShellFiles = [
   "/",
   "index.html",
